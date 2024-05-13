@@ -1,0 +1,233 @@
+/* Объявление цветов */
+:root {
+	--color-text-action: #196dff;
+	--color-pin-action: #f43;
+	--color-background-primary: #f6f6f6;
+	--color-icon-additional: #ccc;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Подключение шрифтов от Яндекса */
+@font-face {
+	font-family: 'Yandex Sans Text';
+	src: url('../fonts/YandexSansText-Thin.eot');
+	src: local('Yandex Sans Text Thin'), local('YandexSansText-Thin'),
+		url('../fonts/YandexSansText-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/YandexSansText-Thin.woff2') format('woff2'),
+		url('../fonts/YandexSansText-Thin.woff') format('woff'),
+		url('../fonts/YandexSansText-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Yandex Sans Display';
+	src: url('../fonts/YandexSansDisplay-Regular.eot');
+	src: local('Yandex Sans Display Regular'), local('YandexSansDisplay-Regular'),
+		url('../fonts/YandexSansDisplay-Regular.eot?#iefix')
+			format('embedded-opentype'),
+		url('../fonts/YandexSansDisplay-Regular.woff2') format('woff2'),
+		url('../fonts/YandexSansDisplay-Regular.woff') format('woff'),
+		url('../fonts/YandexSansDisplay-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Yandex Sans Text';
+	src: url('../fonts/YandexSansText-RegularItalic.eot');
+	src: local('Yandex Sans Text Regular Italic'),
+		local('YandexSansText-RegularItalic'),
+		url('../fonts/YandexSansText-RegularItalic.eot?#iefix')
+			format('embedded-opentype'),
+		url('../fonts/YandexSansText-RegularItalic.woff2') format('woff2'),
+		url('../fonts/YandexSansText-RegularItalic.woff') format('woff'),
+		url('../fonts/YandexSansText-RegularItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Yandex Sans Display';
+	src: url('../fonts/YandexSansDisplay-RegularItalic.eot');
+	src: local('Yandex Sans Display Regular Italic'),
+		local('YandexSansDisplay-RegularItalic'),
+		url('../fonts/YandexSansDisplay-RegularItalic.eot?#iefix')
+			format('embedded-opentype'),
+		url('../fonts/YandexSansDisplay-RegularItalic.woff2') format('woff2'),
+		url('../fonts/YandexSansDisplay-RegularItalic.woff') format('woff'),
+		url('../fonts/YandexSansDisplay-RegularItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Yandex Sans Display';
+	src: url('../fonts/YandexSansDisplay-Light.eot');
+	src: local('Yandex Sans Display Light'), local('YandexSansDisplay-Light'),
+		url('../fonts/YandexSansDisplay-Light.eot?#iefix')
+			format('embedded-opentype'),
+		url('../fonts/YandexSansDisplay-Light.woff2') format('woff2'),
+		url('../fonts/YandexSansDisplay-Light.woff') format('woff'),
+		url('../fonts/YandexSansDisplay-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Yandex Sans Text';
+	src: url('../fonts/YandexSansText-Regular.eot');
+	src: local('Yandex Sans Text Regular'), local('YandexSansText-Regular'),
+		url('../fonts/YandexSansText-Regular.eot?#iefix')
+			format('embedded-opentype'),
+		url('../fonts/YandexSansText-Regular.woff2') format('woff2'),
+		url('../fonts/YandexSansText-Regular.woff') format('woff'),
+		url('../fonts/YandexSansText-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Yandex Sans Text';
+	src: url('../fonts/YandexSansText-Light.eot');
+	src: local('Yandex Sans Text Light'), local('YandexSansText-Light'),
+		url('../fonts/YandexSansText-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/YandexSansText-Light.woff2') format('woff2'),
+		url('../fonts/YandexSansText-Light.woff') format('woff'),
+		url('../fonts/YandexSansText-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Yandex Sans Display';
+	src: url('../fonts/YandexSansDisplay-Bold.eot');
+	src: local('Yandex Sans Display Bold'), local('YandexSansDisplay-Bold'),
+		url('../fonts/YandexSansDisplay-Bold.eot?#iefix')
+			format('embedded-opentype'),
+		url('../fonts/YandexSansDisplay-Bold.woff2') format('woff2'),
+		url('../fonts/YandexSansDisplay-Bold.woff') format('woff'),
+		url('../fonts/YandexSansDisplay-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Yandex Sans Display';
+	src: url('../fonts/YandexSansDisplay-Thin.eot');
+	src: local('Yandex Sans Display Thin'), local('YandexSansDisplay-Thin'),
+		url('../fonts/YandexSansDisplay-Thin.eot?#iefix')
+			format('embedded-opentype'),
+		url('../fonts/YandexSansDisplay-Thin.woff2') format('woff2'),
+		url('../fonts/YandexSansDisplay-Thin.woff') format('woff'),
+		url('../fonts/YandexSansDisplay-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Yandex Sans Text';
+	src: url('../fonts/YandexSansText-Bold.eot');
+	src: local('Yandex Sans Text Bold'), local('YandexSansText-Bold'),
+		url('../fonts/YandexSansText-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/YandexSansText-Bold.woff2') format('woff2'),
+		url('../fonts/YandexSansText-Bold.woff') format('woff'),
+		url('../fonts/YandexSansText-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Yandex Sans Text';
+	src: url('../fonts/YandexSansText-Medium.eot');
+	src: local('Yandex Sans Text Medium'), local('YandexSansText-Medium'),
+		url('../fonts/YandexSansText-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/YandexSansText-Medium.woff2') format('woff2'),
+		url('../fonts/YandexSansText-Medium.woff') format('woff'),
+		url('../fonts/YandexSansText-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* Размеры контейнера, в котором размещается карта */
+#map {
+	width: 100%;
+	height: 964px;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+/* Скрывает маркировку копирайта */
+[class*='copyrights-pane'] {
+	display: none !important;
+}
+
+/* Балун контент */
+[class*='-balloon'] {
+	border-radius: 15px;
+	background-color: var(--color-background-primary) !important;
+}
+
+[class*='-balloon__tail']::after {
+	background-color: var(--color-background-primary) !important;
+}
+
+[class*='balloon__close-button'] {
+	opacity: 1;
+}
+
+.balloon {
+	width: 150px;
+	height: auto;
+	font-family: 'Yandex Sans Text';
+}
+
+.balloon__header {
+	color: var(--color-text-action);
+	text-align: center;
+	margin: 10px 0 10px;
+}
+
+.balloon__contacts,
+.balloon__timetable,
+.balloon__address_details {
+	margin-bottom: 10px;
+}
+
+.balloon__address {
+	display: flex;
+}
+
+.balloon__address_label {
+	font-weight: bold;
+	line-height: 24px;
+	padding-left: 2%;
+}
+
+.balloon__contacts {
+	display: flex;
+}
+
+.balloon__contacts a {
+	line-height: 24px;
+	padding-left: 2%;
+}
+
+a:hover {
+	color: var(--color-pin-action);
+}
+
+.inline-image {
+	color: var(--color-icon-additional);
+}
+
+.balloon__timetable {
+	font-weight: bold;
+}
